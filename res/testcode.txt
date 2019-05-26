@@ -1,0 +1,14 @@
+public static void main() {
+		j=((3*(6+7)*3+2*6));
+		if(i>j){
+            i=0;
+		}
+		else
+		{
+		j=0;
+		}
+		if(j<i)
+		    i=0;
+		else
+       	    i=j;
+}#

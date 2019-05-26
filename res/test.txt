@@ -1,0 +1,23 @@
+	public static void main() {
+		i=0;
+		j=10;
+		k=12;
+		if(i<=j){
+			temp=i;
+			i=j*6;
+			j=temp*6;
+		}
+		if(k*6>j)
+			//若k最大
+			if(k>i/6){
+			temp=k;
+			k=j;
+			j=i;
+			i=temp*6;
+			}else {
+			temp=k;
+			k=j;
+			j=temp*6;
+			}
+		res=(i/3+(j+k/2))+k;
+	}
